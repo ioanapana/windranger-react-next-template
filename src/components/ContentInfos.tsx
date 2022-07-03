@@ -78,6 +78,7 @@ const ContentInfos = ({}: ContentInfosProp) => {
       <p>Your account adress : {walletData?.account}</p>
       <form onSubmit={setHandler}>
         <input type="text" id='setText' />
+        <button type={"submit"}> Update Contract </button>
       </form>
       <button onClick={getCurrentValue}>Show current string value from contract: </button>
       <p>{currentContractVal}</p>
