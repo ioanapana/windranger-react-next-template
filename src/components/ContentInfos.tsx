@@ -73,7 +73,7 @@ const ContentInfos = ({}: ContentInfosProp) => {
   }
 
   return (
-    <div>
+    <div className='container'>
       <button onClick={connectWalletHandler}>{connectionButtonText}</button>
       <p>Your account adress : {walletData?.account}</p>
       <form onSubmit={setHandler}>
